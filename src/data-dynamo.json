@@ -1,0 +1,89 @@
+{
+  "items": [
+    {
+      "identifiers": {
+        "L": [
+          { "S": "Samsung" },
+          { "S": "LG" },
+          { "S": "Motorola" },
+          { "S": "Lenovo" },
+          { "S": "Logitech" },
+          { "S": "Hisense" },
+          { "S": "Sony" }
+        ]
+      },
+      "provider": { "S": "flixfacts" },
+      "content": {
+        "S": "<script type=\"text/javascript\" src=\"//media.flixfacts.com/js/loader.js\"\n      data-flix-distributor=\"12699\"\n      data-flix-language=\"gu\"\n      data-flix-brand=\"<%= marca %>\"\n      data-flix-mpn=\"\"\n      data-flix-ean=\"<%= gr_ean %>\"\n      data-flix-sku=\"<%= product_sku %>\"\n      data-flix-button=\"flix-minisite\"\n      data-flix-inpage=\"flix-inpage\"\n      data-flix-button-image=\"\"\n      data-flix-fallback-language=\"t2\"\n      data-flix-price=\"\">\n</script>"
+      },
+      "metadata": {
+        "M": {
+          "data_brand": { "M": {} }
+        }
+      }
+    },
+    {
+      "identifiers": {
+        "L": [
+          { "S": "Epson" },
+          { "S": "Dell" },
+          { "S": "Whirpool" },
+          { "S": "JBL" },
+          { "S": "Harman Kardon" }
+        ]
+      },
+      "provider": { "S": "webcollage" },
+      "content": {
+        "S": "<script src=\"//scontent.webcollage.net/api/v2/product-content\"></script><script>(function(){var varCollage = function() {Webcollage.loadContent('max-gt','<%= product_id %>', {autoPlayAndStop: true});};varCollage();})();</script>"
+      },
+      "metadata": {
+        "M": {
+          "data_brand": { "M": {} }
+        }
+      }
+    },
+    {
+      "identifiers": {
+        "L": [
+          { "S": "Nexxt" },
+          { "S": "Klip Xtreme" },
+          { "S": "Primus" },
+          { "S": "Forza" },
+          { "S": "XTech" }
+        ]
+      },
+      "provider": { "S": "accvent" },
+      "content": {
+        "S": "<script id=\"accvent-loader\" type=\"text/javascript\" src=\"https://accvent.com/scripting/frameloader.js\" data-search=\"<%= modelo %>\" data-brand=\"<%= data_brand %>\" data-lang=\"es\"></script>"
+      },
+      "metadata": {
+        "M": {
+          "Nexxt": { "S": "NEXXT_CONNECTIVITY" },
+          "Klip Xtreme": { "S": "KLIPXTREME" },
+          "Primus": { "S": "PRIMUS" },
+          "Forza": { "S": "FORZA" },
+          "XTech": { "S": "XTECH" }
+        }
+      }
+    },
+    {
+      "identifiers": {
+        "L": [
+          { "S": "Microsoft" },
+          { "S": "Microsoft Hardware" },
+          { "S": "1361" },
+          { "S": "1362" }
+        ]
+      },
+      "provider": { "S": "1worldsync" },
+      "content": {
+        "S": "<script type='text/javascript'> var ccs_cc_args = ccs_cc_args || []; ccs_cc_args.push(['cpn', '<%= product_sku %>']); ccs_cc_args.push(['mf', '<%= marca %>']); ccs_cc_args.push(['pn', '<%= modelo %>']); ccs_cc_args.push(['upcean', '<%= gr_ean %>']); ccs_cc_args.push(['ccid', 'CATALOG_CODE']); ccs_cc_args.push(['lang', 'ES']); ccs_cc_args.push(['market', 'GT']); (function () { var o = ccs_cc_args; o.push(['_SKey', '9dc1ebca']); o.push(['_ZoneId', 'hp-auto-pp']); var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true; sc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.cs.1worldsync.com/jsc/h1ws.js'; var n = document.getElementsByTagName('script')[0]; n.parentNode.insertBefore(sc, n);})();</script>"
+      },
+      "metadata": {
+        "M": {
+          "data_brand": { "M": {} }
+        }
+      }
+    }
+  ]
+}
