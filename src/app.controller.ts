@@ -20,7 +20,7 @@ export class AppController {
   }
   @Get('/filter')
   filter(@Query('brand') brand: string, @Query('category') category: string) {
-    return this.appService.filter(brand, category);
+    return this.appService.getByIdentifier(brand, category);
   }
 
   @Post()

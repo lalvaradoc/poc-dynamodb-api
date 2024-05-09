@@ -1,8 +1,9 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import * as AWS from '@aws-sdk/client-dynamodb';
+import { DynamoDBDocumentClient } from '@aws-sdk/lib-dynamodb';
 
-export class DynamoDBClientV3 extends AWS.DynamoDBClient {}
+export class DynamoDBClientV3 extends DynamoDBDocumentClient {}
 
 @Module({
   imports: [ConfigModule],
@@ -11,7 +12,7 @@ export class DynamoDBClientV3 extends AWS.DynamoDBClient {}
       provide: DynamoDBClientV3,
       inject: [ConfigService],
       useFactory: (configService: ConfigService) => {
-        return new AWS.DynamoDBClient({
+        const client = new AWS.DynamoDBClient({
           region: configService.get('AWS_REGION'),
           endpoint: configService.get('AWS_ENDPOINT_URL'),
           credentials: {
@@ -19,6 +20,7 @@ export class DynamoDBClientV3 extends AWS.DynamoDBClient {}
             secretAccessKey: configService.get('AWS_SECRET_ACCESS_KEY'),
           },
         });
+        return DynamoDBDocumentClient.from(client);
       },
     },
   ],

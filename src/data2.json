@@ -1,0 +1,130 @@
+{
+  "items": [
+    {
+      "provider": "flixfacts",
+      "content": "<script type=\"text/javascript\" src=\"//media.flixfacts.com/js/loader.js\"\n      data-flix-distributor=\"12699\"\n      data-flix-language=\"gu\"\n      data-flix-brand=\"<%= marca %>\"\n      data-flix-mpn=\"\"\n      data-flix-ean=\"<%= gr_ean %>\"\n      data-flix-sku=\"<%= product_sku %>\"\n      data-flix-button=\"flix-minisite\"\n      data-flix-inpage=\"flix-inpage\"\n      data-flix-button-image=\"\"\n      data-flix-fallback-language=\"t2\"\n      data-flix-price=\"\">\n</script>",
+      "metadata": {},
+      "identifier": "Samsung"
+    },
+    {
+      "provider": "flixfacts",
+      "content": "<script type=\"text/javascript\" src=\"//media.flixfacts.com/js/loader.js\"\n      data-flix-distributor=\"12699\"\n      data-flix-language=\"gu\"\n      data-flix-brand=\"<%= marca %>\"\n      data-flix-mpn=\"\"\n      data-flix-ean=\"<%= gr_ean %>\"\n      data-flix-sku=\"<%= product_sku %>\"\n      data-flix-button=\"flix-minisite\"\n      data-flix-inpage=\"flix-inpage\"\n      data-flix-button-image=\"\"\n      data-flix-fallback-language=\"t2\"\n      data-flix-price=\"\">\n</script>",
+      "metadata": {},
+      "identifier": "LG"
+    },
+    {
+      "provider": "flixfacts",
+      "content": "<script type=\"text/javascript\" src=\"//media.flixfacts.com/js/loader.js\"\n      data-flix-distributor=\"12699\"\n      data-flix-language=\"gu\"\n      data-flix-brand=\"<%= marca %>\"\n      data-flix-mpn=\"\"\n      data-flix-ean=\"<%= gr_ean %>\"\n      data-flix-sku=\"<%= product_sku %>\"\n      data-flix-button=\"flix-minisite\"\n      data-flix-inpage=\"flix-inpage\"\n      data-flix-button-image=\"\"\n      data-flix-fallback-language=\"t2\"\n      data-flix-price=\"\">\n</script>",
+      "metadata": {},
+      "identifier": "Motorola"
+    },
+    {
+      "provider": "flixfacts",
+      "content": "<script type=\"text/javascript\" src=\"//media.flixfacts.com/js/loader.js\"\n      data-flix-distributor=\"12699\"\n      data-flix-language=\"gu\"\n      data-flix-brand=\"<%= marca %>\"\n      data-flix-mpn=\"\"\n      data-flix-ean=\"<%= gr_ean %>\"\n      data-flix-sku=\"<%= product_sku %>\"\n      data-flix-button=\"flix-minisite\"\n      data-flix-inpage=\"flix-inpage\"\n      data-flix-button-image=\"\"\n      data-flix-fallback-language=\"t2\"\n      data-flix-price=\"\">\n</script>",
+      "metadata": {},
+      "identifier": "Lenovo"
+    },
+    {
+      "provider": "flixfacts",
+      "content": "<script type=\"text/javascript\" src=\"//media.flixfacts.com/js/loader.js\"\n      data-flix-distributor=\"12699\"\n      data-flix-language=\"gu\"\n      data-flix-brand=\"<%= marca %>\"\n      data-flix-mpn=\"\"\n      data-flix-ean=\"<%= gr_ean %>\"\n      data-flix-sku=\"<%= product_sku %>\"\n      data-flix-button=\"flix-minisite\"\n      data-flix-inpage=\"flix-inpage\"\n      data-flix-button-image=\"\"\n      data-flix-fallback-language=\"t2\"\n      data-flix-price=\"\">\n</script>",
+      "metadata": {},
+      "identifier": "Logitech"
+    },
+    {
+      "provider": "flixfacts",
+      "content": "<script type=\"text/javascript\" src=\"//media.flixfacts.com/js/loader.js\"\n      data-flix-distributor=\"12699\"\n      data-flix-language=\"gu\"\n      data-flix-brand=\"<%= marca %>\"\n      data-flix-mpn=\"\"\n      data-flix-ean=\"<%= gr_ean %>\"\n      data-flix-sku=\"<%= product_sku %>\"\n      data-flix-button=\"flix-minisite\"\n      data-flix-inpage=\"flix-inpage\"\n      data-flix-button-image=\"\"\n      data-flix-fallback-language=\"t2\"\n      data-flix-price=\"\">\n</script>",
+      "metadata": {},
+      "identifier": "Hisense"
+    },
+    {
+      "provider": "flixfacts",
+      "content": "<script type=\"text/javascript\" src=\"//media.flixfacts.com/js/loader.js\"\n      data-flix-distributor=\"12699\"\n      data-flix-language=\"gu\"\n      data-flix-brand=\"<%= marca %>\"\n      data-flix-mpn=\"\"\n      data-flix-ean=\"<%= gr_ean %>\"\n      data-flix-sku=\"<%= product_sku %>\"\n      data-flix-button=\"flix-minisite\"\n      data-flix-inpage=\"flix-inpage\"\n      data-flix-button-image=\"\"\n      data-flix-fallback-language=\"t2\"\n      data-flix-price=\"\">\n</script>",
+      "metadata": {},
+      "identifier": "Sony"
+    },
+    {
+      "provider": "webcollage",
+      "content": "<script src=\"//scontent.webcollage.net/api/v2/product-content\"></script><script>(function(){var varCollage = function() {Webcollage.loadContent('max-gt','<%= product_id %>', {autoPlayAndStop: true});};varCollage();})();</script>",
+      "metadata": {},
+      "identifier": "Epson"
+    },
+    {
+      "provider": "webcollage",
+      "content": "<script src=\"//scontent.webcollage.net/api/v2/product-content\"></script><script>(function(){var varCollage = function() {Webcollage.loadContent('max-gt','<%= product_id %>', {autoPlayAndStop: true});};varCollage();})();</script>",
+      "metadata": {},
+      "identifier": "Dell"
+    },
+    {
+      "provider": "webcollage",
+      "content": "<script src=\"//scontent.webcollage.net/api/v2/product-content\"></script><script>(function(){var varCollage = function() {Webcollage.loadContent('max-gt','<%= product_id %>', {autoPlayAndStop: true});};varCollage();})();</script>",
+      "metadata": {},
+      "identifier": "Whirpool"
+    },
+    {
+      "provider": "webcollage",
+      "content": "<script src=\"//scontent.webcollage.net/api/v2/product-content\"></script><script>(function(){var varCollage = function() {Webcollage.loadContent('max-gt','<%= product_id %>', {autoPlayAndStop: true});};varCollage();})();</script>",
+      "metadata": {},
+      "identifier": "JBL"
+    },
+    {
+      "provider": "webcollage",
+      "content": "<script src=\"//scontent.webcollage.net/api/v2/product-content\"></script><script>(function(){var varCollage = function() {Webcollage.loadContent('max-gt','<%= product_id %>', {autoPlayAndStop: true});};varCollage();})();</script>",
+      "metadata": {},
+      "identifier": "Harman Kardon"
+    },
+    {
+      "provider": "accvent",
+      "content": "<script id=\"accvent-loader\" type=\"text/javascript\" src=\"https://accvent.com/scripting/frameloader.js\" data-search=\"<%= modelo %>\" data-brand=\"<%= data_brand %>\" data-lang=\"es\"></script>",
+      "metadata": { "data_brand": "NEXXT_CONNECTIVITY" },
+      "identifier": "Nexxt"
+    },
+    {
+      "provider": "accvent",
+      "content": "<script id=\"accvent-loader\" type=\"text/javascript\" src=\"https://accvent.com/scripting/frameloader.js\" data-search=\"<%= modelo %>\" data-brand=\"<%= data_brand %>\" data-lang=\"es\"></script>",
+      "metadata": { "data_brand": "KLIPXTREME" },
+      "identifier": "Klip Xtreme"
+    },
+    {
+      "provider": "accvent",
+      "content": "<script id=\"accvent-loader\" type=\"text/javascript\" src=\"https://accvent.com/scripting/frameloader.js\" data-search=\"<%= modelo %>\" data-brand=\"<%= data_brand %>\" data-lang=\"es\"></script>",
+      "metadata": { "data_brand": "PRIMUS" },
+      "identifier": "Primus"
+    },
+    {
+      "provider": "accvent",
+      "content": "<script id=\"accvent-loader\" type=\"text/javascript\" src=\"https://accvent.com/scripting/frameloader.js\" data-search=\"<%= modelo %>\" data-brand=\"<%= data_brand %>\" data-lang=\"es\"></script>",
+      "metadata": { "data_brand": "FORZA" },
+      "identifier": "Forza"
+    },
+    {
+      "provider": "accvent",
+      "content": "<script id=\"accvent-loader\" type=\"text/javascript\" src=\"https://accvent.com/scripting/frameloader.js\" data-search=\"<%= modelo %>\" data-brand=\"<%= data_brand %>\" data-lang=\"es\"></script>",
+      "metadata": { "data_brand": "XTECH" },
+      "identifier": "XTech"
+    },
+    {
+      "provider": "1worldsync",
+      "content": "<script type='text/javascript'> var ccs_cc_args = ccs_cc_args || []; ccs_cc_args.push(['cpn', '<%= product_sku %>']); ccs_cc_args.push(['mf', '<%= marca %>']); ccs_cc_args.push(['pn', '<%= modelo %>']); ccs_cc_args.push(['upcean', '<%= gr_ean %>']); ccs_cc_args.push(['ccid', 'CATALOG_CODE']); ccs_cc_args.push(['lang', 'ES']); ccs_cc_args.push(['market', 'GT']); (function () { var o = ccs_cc_args; o.push(['_SKey', '9dc1ebca']); o.push(['_ZoneId', 'hp-auto-pp']); var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true; sc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.cs.1worldsync.com/jsc/h1ws.js'; var n = document.getElementsByTagName('script')[0]; n.parentNode.insertBefore(sc, n);})();</script>",
+      "metadata": {},
+      "identifier": "Microsoft"
+    },
+    {
+      "provider": "1worldsync",
+      "content": "<script type='text/javascript'> var ccs_cc_args = ccs_cc_args || []; ccs_cc_args.push(['cpn', '<%= product_sku %>']); ccs_cc_args.push(['mf', '<%= marca %>']); ccs_cc_args.push(['pn', '<%= modelo %>']); ccs_cc_args.push(['upcean', '<%= gr_ean %>']); ccs_cc_args.push(['ccid', 'CATALOG_CODE']); ccs_cc_args.push(['lang', 'ES']); ccs_cc_args.push(['market', 'GT']); (function () { var o = ccs_cc_args; o.push(['_SKey', '9dc1ebca']); o.push(['_ZoneId', 'hp-auto-pp']); var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true; sc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.cs.1worldsync.com/jsc/h1ws.js'; var n = document.getElementsByTagName('script')[0]; n.parentNode.insertBefore(sc, n);})();</script>",
+      "metadata": {},
+      "identifier": "Microsoft Hardware"
+    },
+    {
+      "provider": "1worldsync",
+      "content": "<script type='text/javascript'> var ccs_cc_args = ccs_cc_args || []; ccs_cc_args.push(['cpn', '<%= product_sku %>']); ccs_cc_args.push(['mf', '<%= marca %>']); ccs_cc_args.push(['pn', '<%= modelo %>']); ccs_cc_args.push(['upcean', '<%= gr_ean %>']); ccs_cc_args.push(['ccid', 'CATALOG_CODE']); ccs_cc_args.push(['lang', 'ES']); ccs_cc_args.push(['market', 'GT']); (function () { var o = ccs_cc_args; o.push(['_SKey', '9dc1ebca']); o.push(['_ZoneId', 'hp-auto-pp']); var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true; sc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.cs.1worldsync.com/jsc/h1ws.js'; var n = document.getElementsByTagName('script')[0]; n.parentNode.insertBefore(sc, n);})();</script>",
+      "metadata": {},
+      "identifier": "1361"
+    },
+    {
+      "provider": "1worldsync",
+      "content": "<script type='text/javascript'> var ccs_cc_args = ccs_cc_args || []; ccs_cc_args.push(['cpn', '<%= product_sku %>']); ccs_cc_args.push(['mf', '<%= marca %>']); ccs_cc_args.push(['pn', '<%= modelo %>']); ccs_cc_args.push(['upcean', '<%= gr_ean %>']); ccs_cc_args.push(['ccid', 'CATALOG_CODE']); ccs_cc_args.push(['lang', 'ES']); ccs_cc_args.push(['market', 'GT']); (function () { var o = ccs_cc_args; o.push(['_SKey', '9dc1ebca']); o.push(['_ZoneId', 'hp-auto-pp']); var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true; sc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.cs.1worldsync.com/jsc/h1ws.js'; var n = document.getElementsByTagName('script')[0]; n.parentNode.insertBefore(sc, n);})();</script>",
+      "metadata": {},
+      "identifier": "1362"
+    }
+  ]
+}

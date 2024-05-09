@@ -1,14 +1,14 @@
 {
-  "TableName": "contenido-sindicado",
+  "TableName": "syndicated-content",
   "KeySchema": [
     {
-      "AttributeName": "contentId",
+      "AttributeName": "identifier",
       "KeyType": "HASH"
     }
   ],
   "AttributeDefinitions": [
     {
-      "AttributeName": "contentId",
+      "AttributeName": "identifier",
       "AttributeType": "S"
     }
   ],
